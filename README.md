@@ -40,7 +40,7 @@ The Modding System lets your players customize your game by loading external mod
 
 | Expression | What it does |
 |-----------|-------------|
-| **Quotes(text)** | Wraps a string in quotes — useful when building code strings for Is code correct. |
+| **Quotes(text)** | Wraps a string in quotes, useful when building code strings for Is code correct. |
 
 ---
 
@@ -81,7 +81,7 @@ The Modding System lets your players customize your game by loading external mod
 ## Important notes
 
 - **Mod files must follow the naming and format rules** defined in your game's modding guide. See the modding resources site for more details.
-- **Many actions require empty placeholder arguments.** Some parameter slots must remain empty — the extension handles them internally.
+- **Many actions require empty placeholder arguments.** Some parameter slots must remain empty, the extension handles them internally.
 - **Always enable testing/debug mode** when authoring mod logic in the editor. Disable these flags in production builds.
 - Add the Run code (experimental) behavior to sprites or 3D models that players can customize.
-- `CodeObject2d` is the runtime bridge object — think of it as a canvas where custom code and textures are applied.
+- `CodeObject2d` is the runtime bridge object, think of it as a canvas where custom code and textures are applied.
