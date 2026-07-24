@@ -1,6 +1,6 @@
 # Modding System (Experimental)
 
-The Modding System lets your players customize your game by loading external mod files — textures, 3D models, and configuration data — that your game can download and apply at runtime. It also allows you to run JavaScript code directly on objects from events.
+The Modding System lets your players customize your game by loading external mod files, textures, 3D models, and configuration data, that your game can download and apply at runtime. It also allows you to run JavaScript code directly on objects from events.
 
 > ⚠️ **This extension is experimental.** Enable testing/debug mode when working in the editor.
 
