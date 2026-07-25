@@ -1,6 +1,6 @@
 # Modding System (Experimental)
 
-The Modding System lets your players customize your game by loading external mod files, textures, 3D models, and configuration data that your game can download and apply at runtime. It also allows you to run JavaScript code directly on objects from events.
+The Modding System lets your players customize your game by loading external mod files — textures, 3D models, and configuration data — that your game can download and apply at runtime. It also allows you to run JavaScript code directly on objects from events.
 
 > ⚠️ **This extension is experimental.** Enable testing/debug mode when working in the editor.
 
@@ -24,7 +24,6 @@ The Modding System lets your players customize your game by loading external mod
 | **Delete** | Delete all mod files loaded in a group. |
 | **Download** | Download a mod file from a given file path / URL. |
 | **DownloadInterface** | Opens the mod download interface for the player. Enable testing mode in the editor. |
-| **ErrorOrSignal** | Send an error or signal (used internally by the modding workflow). |
 | **Load** | Load mod files from a file path into a scene variable and group. |
 | **ProgrammingLanguage** | Choose the language the mod is written in: `"Java"`, `"C++"`, `"JavaScript"`, or `"Python"`. |
 | **Save** | Save the current modded state into a group. |
@@ -36,6 +35,7 @@ The Modding System lets your players customize your game by loading external mod
 | **IsAPIKey** | Returns true if the API key has been set. |
 | **IsCode** | Returns true if the provided JavaScript code string is valid (syntax check). |
 | **IsDownloadDone** | Returns true when a mod download has completed. |
+| **ErrorOrSignal** | Returns true when a modding error or signal has occurred. |
 
 ## Global expressions
 
@@ -82,7 +82,7 @@ The Modding System lets your players customize your game by loading external mod
 ## Important notes
 
 - **Mod files must follow the naming and format rules** defined in your game's modding guide.
-- **Many actions require empty placeholder arguments.** Some parameter slots must remain empty, the extension handles them internally.
+- **Many actions require empty placeholder arguments.** Some parameter slots must remain empty — the extension handles them internally.
 - **Always enable testing/debug mode** when authoring mod logic in the editor. Disable these flags in production builds.
 - Add the Run code (experimental) behavior to sprites or 3D models that players can customize.
-- `CodeObject2d` is the runtime bridge object, think of it as a canvas where custom code and textures are applied.
+- `CodeObject2d` is the runtime bridge object — think of it as a canvas where custom code and textures are applied.
