@@ -11,7 +11,7 @@ The Modding System lets your players customize your game by loading external mod
 | Type | Internal name | Purpose |
 |------|--------------|---------|
 | **Object** | `ModdingSystem::CodeObject2d` | A 2D object that can execute JavaScript code, create objects with custom textures, and load external assets. |
-| **Behavior** | Moddable object (experimental) | Attach this to any sprite/3D model to make it moddable — it can run mod-specific JavaScript and respond to mod file loads. |
+| **Behavior** | Moddable object (experimental) | Attach this to any sprite/3D model to make it moddable it can run mod-specific JavaScript and respond to mod file loads. |
 
 ---
 
@@ -41,7 +41,7 @@ The Modding System lets your players customize your game by loading external mod
 
 | Expression | What it does |
 |-----------|-------------|
-| **Quotes(text)** | Wraps a string in quotes — useful when building code strings for Is code correct. |
+| **Quotes(text)** | Wraps a string in quotes useful when building code strings for Is code correct. |
 
 ---
 
