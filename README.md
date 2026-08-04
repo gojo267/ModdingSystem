@@ -1,6 +1,6 @@
 # Modding System (Experimental)
 
-The Modding System lets your players customize your game by loading external mod files — textures, 3D models, and configuration data — that your game can download and apply at runtime. It also allows you to run JavaScript code directly on objects from events.
+The Modding System lets your players customize your game by loading external mod files, textures, 3D models, and configuration data that your game can download and apply at runtime. It also allows you to run JavaScript code directly on objects from events.
 
 > ⚠️ **This extension is experimental.** Enable testing/debug mode when working in the editor.
 
@@ -42,7 +42,7 @@ The Modding System lets your players customize your game by loading external mod
 
 | Expression | What it does |
 |-----------|-------------|
-| **Quotes(text)** | Wraps a string in quotes — useful when building code strings for Is code correct. |
+| **Quotes(text)** | Wraps a string in quotes useful when building code strings for Is code correct. |
 
 ---
 
@@ -83,8 +83,8 @@ The Modding System lets your players customize your game by loading external mod
 ## Important notes
 
 - **Mod files must follow the naming and format rules** defined in your game's modding guide.
-- **Many actions require empty placeholder arguments.** Some parameter slots must remain empty — the extension handles them internally.
+- **Many actions require empty placeholder arguments.** Some parameter slots must remain empty the extension handles them internally.
 - **Always enable testing/debug mode** when authoring mod logic in the editor. Disable these flags in production builds.
 - Add the Run code (experimental) behavior to sprites or 3D models that players can customize.
-- `CodeObject2d` is the runtime bridge object — think of it as a canvas where custom code and textures are applied.
-- **You must download the `WebSocketClient` and `Upload Download Text File` extensions** — the ModdingSystem depends on both of these extensions to function properly.
+- `CodeObject2d` is the runtime bridge object think of it as a canvas where custom code and textures are applied.
+- **You must download the `WebSocketClient` and `Upload Download Text File` extensions** the ModdingSystem depends on both of these extensions to function properly.
