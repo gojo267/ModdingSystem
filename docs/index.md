@@ -42,7 +42,7 @@ The Modding System lets your players customize your game by loading external mod
 
 | Expression | What it does |
 |-----------|-------------|
-| **Quotes(text)** | Wraps a string in quotes useful when building code strings for Is code correct. |
+| **Quotes(text)** | Wraps a string in quotes useful when building code strings for Is code correct and Run code (experimental). |
 
 ---
 
